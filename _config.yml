@@ -5,3 +5,4 @@ exclude:
   - "*.tmpl"
   - ebusd-configuration
   - ebusd-configuration-next
+  - ebusd-configuration-dev

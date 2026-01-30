@@ -5,3 +5,6 @@
 [submodule "ebusd-configuration-next"]
 	path = ebusd-configuration-next
 	url = https://github.com/john30/ebusd-configuration.git
+[submodule "ebusd-configuration-dev"]
+	path = ebusd-configuration-dev
+	url = https://github.com/burmistrzak/ebusd-configuration

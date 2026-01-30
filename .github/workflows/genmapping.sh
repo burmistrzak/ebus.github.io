@@ -6,7 +6,7 @@ ref="$3"
 mf=$(basename "$4")
 indent=
 path=
-urlprefix="https://github.com/john30/ebusd-configuration/blob/$ref/src/"
+urlprefix="https://github.com/burmistrzak/ebusd-configuration/blob/$ref/src/"
 if [[ "x$mf" == "x." ]]; then
   mf=""
 else
