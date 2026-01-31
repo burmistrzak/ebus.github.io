@@ -320,10 +320,9 @@ w,,,Hc1HeatingFlowTempMin,HeatingFlowTempMin heating circuit 1,,,b524,0201020012
 [hc1exthwcactive=1]w,,,Hc1ExtHwcOpMode,ExtHwcOpMode heating circuit 1,,,b524,020102001300,value,,UIN,0=off;1=auto;2=manual,,
 r,,,Hc1SummerTempLimit,summer outside switchoff temperature heating circuit 1,,,b524,020002001400,value,,IGN:4,,,,value,,EXP,,°C,temperature
 w,,,Hc1SummerTempLimit,summer outside switchoff temperature heating circuit 1,,,b524,020102001400,value,,EXP,,°C,temperature
-r,,,Hc1ScreedDryingDay,ScreedDryingDay heating circuit 1,,,b524,020002001600,value,,IGN:4,,,,value,,UIN,,,
-w,,,Hc1ScreedDryingDay,ScreedDryingDay heating circuit 1,,,b524,020102001600,value,,UIN,,,
-r,,,Hc1ScreedDryingDesiredTemp,ScreedDryingDesiredTemp heating circuit 1,,,b524,020002001700,value,,IGN:4,,,,value,,EXP,,°C,temperature
-w,,,Hc1ScreedDryingDesiredTemp,ScreedDryingDesiredTemp heating circuit 1,,,b524,020102001700,value,,EXP,,°C,temperature
+r,,install,Hc1ScreedDryingDay,ScreedDryingDay heating circuit 1,,,b524,020002001600,value,,IGN:4,,,,value,,UIN,,,
+w,,install,Hc1ScreedDryingDay,ScreedDryingDay heating circuit 1,,,b524,020102001600,value,,UIN,,,
+r,,install,Hc1ScreedDryingDesiredTemp,ScreedDryingDesiredTemp heating circuit 1,,,b524,020002001700,value,,IGN:4,,,,value,,EXP,,°C,temperature
 r,,,Hc1ExtHeatDemand,ExtHeatDemand heating circuit 1,,,b524,020002001900,value,,IGN:4,,,,value,,UCH,0=off;1=on,,
 [hc1circuittype=1]r,,,Hc1MixerMovement,MixerMovement heating circuit 1,,,b524,020002001a00,value,,IGN:4,,,,value,,EXP,,,
 r,,,Hc1HeatCurveAdaption,HeatCurveAdaption heating circuit 1,,,b524,020002001c00,value,,IGN:4,,,,value,,EXP,,,
@@ -363,10 +362,9 @@ w,,,Hc2HeatingFlowTempMin,HeatingFlowTempMin heating circuit 2,,,b524,0201020112
 [hc2exthwcactive=1]w,,,Hc2ExtHwcOpMode,ExtHwcOpMode heating circuit 2,,,b524,020102011300,value,,UIN,0=off;1=auto;2=manual,,
 r,,,Hc2SummerTempLimit,summer outside switchoff temperature heating circuit 2,,,b524,020002011400,value,,IGN:4,,,,value,,EXP,,°C,temperature
 w,,,Hc2SummerTempLimit,summer outside switchoff temperature heating circuit 2,,,b524,020102011400,value,,EXP,,°C,temperature
-r,,,Hc2ScreedDryingDay,ScreedDryingDay heating circuit 2,,,b524,020002011600,value,,IGN:4,,,,value,,UIN,,,
-w,,,Hc2ScreedDryingDay,ScreedDryingDay heating circuit 2,,,b524,020102011600,value,,UIN,,,
-r,,,Hc2ScreedDryingDesiredTemp,ScreedDryingDesiredTemp heating circuit 2,,,b524,020002011700,value,,IGN:4,,,,value,,EXP,,°C,temperature
-w,,,Hc2ScreedDryingDesiredTemp,ScreedDryingDesiredTemp heating circuit 2,,,b524,020102011700,value,,EXP,,°C,temperature
+r,,install,Hc2ScreedDryingDay,ScreedDryingDay heating circuit 2,,,b524,020002011600,value,,IGN:4,,,,value,,UIN,,,
+w,,install,Hc2ScreedDryingDay,ScreedDryingDay heating circuit 2,,,b524,020102011600,value,,UIN,,,
+r,,install,Hc2ScreedDryingDesiredTemp,ScreedDryingDesiredTemp heating circuit 2,,,b524,020002011700,value,,IGN:4,,,,value,,EXP,,°C,temperature
 r,,,Hc2ExtHeatDemand,ExtHeatDemand heating circuit 2,,,b524,020002011900,value,,IGN:4,,,,value,,UCH,0=off;1=on,,
 [hc2circuittype=1]r,,,Hc2MixerMovement,MixerMovement heating circuit 2,,,b524,020002011a00,value,,IGN:4,,,,value,,EXP,,,
 r,,,Hc2HeatCurveAdaption,HeatCurveAdaption heating circuit 2,,,b524,020002011c00,value,,IGN:4,,,,value,,EXP,,,
@@ -406,10 +404,9 @@ w,,,Hc3HeatingFlowTempMin,HeatingFlowTempMin heating circuit 3,,,b524,0201020212
 [hc3exthwcactive=1]w,,,Hc3ExtHwcOpMode,ExtHwcOpMode heating circuit 3,,,b524,020102021300,value,,UIN,0=off;1=auto;2=manual,,
 r,,,Hc3SummerTempLimit,summer outside switchoff temperature heating circuit 3,,,b524,020002021400,value,,IGN:4,,,,value,,EXP,,°C,temperature
 w,,,Hc3SummerTempLimit,summer outside switchoff temperature heating circuit 3,,,b524,020102021400,value,,EXP,,°C,temperature
-r,,,Hc3ScreedDryingDay,ScreedDryingDay heating circuit 3,,,b524,020002021600,value,,IGN:4,,,,value,,UIN,,,
-w,,,Hc3ScreedDryingDay,ScreedDryingDay heating circuit 3,,,b524,020102021600,value,,UIN,,,
-r,,,Hc3ScreedDryingDesiredTemp,ScreedDryingDesiredTemp heating circuit 3,,,b524,020002021700,value,,IGN:4,,,,value,,EXP,,°C,temperature
-w,,,Hc3ScreedDryingDesiredTemp,ScreedDryingDesiredTemp heating circuit 3,,,b524,020102021700,value,,EXP,,°C,temperature
+r,,install,Hc3ScreedDryingDay,ScreedDryingDay heating circuit 3,,,b524,020002021600,value,,IGN:4,,,,value,,UIN,,,
+w,,install,Hc3ScreedDryingDay,ScreedDryingDay heating circuit 3,,,b524,020102021600,value,,UIN,,,
+r,,install,Hc3ScreedDryingDesiredTemp,ScreedDryingDesiredTemp heating circuit 3,,,b524,020002021700,value,,IGN:4,,,,value,,EXP,,°C,temperature
 r,,,Hc3ExtHeatDemand,ExtHeatDemand heating circuit 3,,,b524,020002021900,value,,IGN:4,,,,value,,UCH,0=off;1=on,,
 [hc3circuittype=1]r,,,Hc3MixerMovement,MixerMovement heating circuit 3,,,b524,020002021a00,value,,IGN:4,,,,value,,EXP,,,
 r,,,Hc3HeatCurveAdaption,HeatCurveAdaption heating circuit 3,,,b524,020002021c00,value,,IGN:4,,,,value,,EXP,,,
